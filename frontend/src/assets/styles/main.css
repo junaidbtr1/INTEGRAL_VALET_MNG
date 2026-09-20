@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "primeicons/primeicons.css";
+
+:root {
+  --tenant-primary: #6366F1;
+  --tenant-secondary: #059669;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

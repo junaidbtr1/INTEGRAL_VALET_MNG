@@ -1,0 +1,37 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --configLoader native",
+    "build": "tsc && vite build --configLoader native",
+    "preview": "vite preview --configLoader native"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "typescript": "~5.9.3",
+    "vite": "^8.0.1"
+  },
+  "dependencies": {
+    "@primevue/themes": "^4.5.4",
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/qrcode": "^1.5.6",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "@vueuse/core": "^14.2.1",
+    "axios": "^1.14.0",
+    "dayjs": "^1.11.20",
+    "lodash-es": "^4.17.23",
+    "pinia": "^3.0.4",
+    "pinia-plugin-persistedstate": "^4.7.1",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.5.4",
+    "print-js": "^1.6.0",
+    "qrcode": "^1.5.4",
+    "tailwindcss": "^4.2.2",
+    "vee-validate": "^4.15.1",
+    "vue": "^3.5.31",
+    "vue-router": "^4.6.4",
+    "yup": "^1.7.1"
+  }
+}
